@@ -1,0 +1,23 @@
+.labelG
+{
+
+    font-size: 70px;
+    margin-left: 10%;
+
+}
+
+.nota
+{
+
+    font-size: 90px;
+    margin-left: 10%;
+
+}
+.butao
+{
+    height: 90px;
+    font-size: 60px;
+    margin-left: 10%;
+    text-align: center;
+    cursor: pointer;
+}
