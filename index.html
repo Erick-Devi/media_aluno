@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <title>Título da página</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="estilos/bootstrap.css">
+
+    <link rel="stylesheet" href="estilos/bootstrap.css.map">
+
+    <link rel="stylesheet" href="estilos/estilo.css">
+
+    <script type="text/javascript" src="motor/motor.js"></script>
+
+  </head>
+
+     <body>
+
+        <div class="row">
+
+            <div class=" row col-md-12 bg-success cabecalho shadow p-3">
+
+            <div class="col-md-4">
+
+
+
+            </div> 
+
+            <div class="col-md-4 text-center mt-1">   
+
+                <h1>Media do aluno</h1> 
+
+            </div>
+
+
+            </div>
+
+        </div>
+
+        
+        <div class="container">
+
+            <form id="formulario">
+
+                <div class="row mt-5">
+
+                    <label for="firstnote" class="labelG">Digite a primeira nota</label>
+    
+                </div>
+
+                <div class="row mt-2">
+
+                    <input type="number" min="0" max="10" class="nota col-10" id="nota1">
+    
+                </div>
+
+                <div class="row mt-5">
+
+                    <label for="secondnote" class="labelG">Digite a segunda nota</label>
+    
+                </div>
+
+                <div class="row mt-2">
+
+                    <input type="number" min="0" max="10" class="nota col-10"  id="nota2">
+    
+                </div>
+
+                <div class="row mt-5">
+
+                    <label for="thirdnote" class="labelG">Digite a terceira nota</label>
+    
+                </div>
+
+                <div class="row mt-2">
+
+                    <input type="number" min="0" max="10" class="nota col-10"  id="nota3">
+    
+                </div>
+
+               <input type="submit" class="mt-5 col-10 butao bg-success shadow-lg butao" value="Enviar" onclick="calcular()">
+
+            </form>
+           
+
+
+        </div>
+
+        
+    </body>
+
+</html>
